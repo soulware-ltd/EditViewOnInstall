@@ -122,10 +122,6 @@ function view_merge(){
 
 	}
 
-	$time_taken = microtime(true) - $start;
-
-	if($console_messages) echo "execution time: " . $time_taken . "\n";
-
 }
 
 //HELPERS
