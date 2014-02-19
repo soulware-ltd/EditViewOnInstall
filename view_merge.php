@@ -347,6 +347,8 @@ function saveFile($path, $content, $add_sugar_entry = true){
 
 	}
 
+	createDirStructure($path);
+
 	file_put_contents($path, $content);
 
 }
@@ -363,6 +365,37 @@ function createClass($class_name, $method_name, $content_to_insert, $insert_meth
 	$content .= "}\n}\n?>";
 
 	return $content;
+
+}
+
+function createDirStructure($path){
+	
+	$current_path = "";
+
+	$dir_array = getDirArray($path);
+
+	foreach($dir_array as $dir){
+
+		$current_path .= $dir . "/";
+
+		if(!is_dir($current_path)){
+
+			mkdir($current_path);
+
+		}
+
+	}
+
+	return true;
+
+}
+
+function getDirArray($path){
+
+	$return_array = explode('/', $path);
+	array_pop($return_array);
+
+	return $return_array;
 
 }
 
