@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * EditViewOnInstal projekt, Soulware Zrt.
+ * Spendel Péter <spendel.peter@soulware.hu>
+ * Soulware Zrt. <www.soulware.hu>
+ */
+
 namespace Soulware;
 
 class viewMerge {
