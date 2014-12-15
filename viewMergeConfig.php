@@ -7,7 +7,7 @@
 
 namespace Soulware;
 
-class mergeConfig {
+class viewMergeConfig {
     public $module; 
     public $sourcefile; // string
     public $type; //  

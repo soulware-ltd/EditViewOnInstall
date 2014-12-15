@@ -20,8 +20,6 @@ class viewMerge {
     
     public function install() {
 
-        require_once(__DIR__ . '/view_merge.config.php');
-
         if (isset($this->merge_configs) && is_array($this->merge_configs)) {
 
             $this->log("metadata info found.");
@@ -120,8 +118,6 @@ class viewMerge {
     }
 
     public function uninstall() {
-
-        require_once(__DIR__ . '/view_merge.config.php');
 
         if (isset($this->merge_configs) && is_array($this->merge_configs)) {
 
