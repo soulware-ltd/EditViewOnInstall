@@ -6,7 +6,7 @@
  * Soulware Zrt. <www.soulware.hu>
  */
 
-namespace Soulware;
+namespace Soulware\EditViewOnInstall;
 
 class viewMerge {
 
