@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-0": {
-          "Soulware\\EditViewOnInstall\\viewMerge": "source/"
+          "Soulware\\EditViewOnInstall\\": "source/"
           }
           
     }
