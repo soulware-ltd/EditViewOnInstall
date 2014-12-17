@@ -12,7 +12,5 @@
           "Soulware\\EditViewOnInstall\\viewMerge": "source/"
           }
           
-    },
-    "target-dir" : "Soulware/EditViewOnInstall/viewMerge" 
-            
- }
+    }
+}
