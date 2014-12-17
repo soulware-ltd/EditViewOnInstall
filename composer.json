@@ -1,6 +1,7 @@
 {
     "name": "Soulware/EditViewOnInstall",
     "description": "SugarCRM install and uninstall script to modify or extend views with custom code.",
+    "type" : "library",
     "version": "0.9.3",
     "license": "MIT",
     "require": {
